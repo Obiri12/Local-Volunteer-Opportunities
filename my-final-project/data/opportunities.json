@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Food Bank Volunteer",
+    "organization": "City Food Bank",
+    "location": "Accra, Ghana",
+    "date": "2025-08-15",
+    "category": "Food Distribution",
+    "description": "Assist with sorting and distributing food to families in need.",
+    "contact": "info@cityfoodbank.org"
+  },
+  {
+    "id": 2,
+    "title": "Beach Cleanup",
+    "organization": "Green Coast Initiative",
+    "location": "Labadi Beach, Accra",
+    "date": "2025-08-20",
+    "category": "Environment",
+    "description": "Join us to clean up the beach and protect marine life.",
+    "contact": "volunteer@greencoast.org"
+  },
+  {
+    "id": 3,
+    "title": "Community Health Awareness",
+    "organization": "Healthy Living NGO",
+    "location": "Osu, Accra",
+    "date": "2025-09-05",
+    "category": "Health",
+    "description": "Help organize health talks and distribute awareness materials.",
+    "contact": "contact@healthyliving.org"
+  },
+  {
+    "id": 4,
+    "title": "Animal Shelter Support",
+    "organization": "Accra Animal Rescue",
+    "location": "East Legon, Accra",
+    "date": "2025-09-10",
+    "category": "Animal Welfare",
+    "description": "Feed, bathe, and play with rescued animals.",
+    "contact": "rescue@accraanimals.org"
+  }
+]
