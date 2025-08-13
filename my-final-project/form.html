@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find local volunteer opportunities in your area. Connect with organizations and make an impact.">
+  <title>Local Volunteer Opportunities</title>
+  
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/logo.png" alt="Volunteer Logo" class="logo">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Make a Difference in Your Community</h1>
+      <p>Find local volunteer opportunities that match your passion and availability.</p>
+    </section>
+
+    <section class="search-container">
+      <h2>Find Volunteer Opportunities</h2>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search by keyword or location...">
+        <select id="categorySelect">
+          <option value="">All Categories</option>
+          <option value="Food Distribution">Food Distribution</option>
+          <option value="Environment">Environment</option>
+          <option value="Health">Health</option>
+          <option value="Animal Welfare">Animal Welfare</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="registration-container">
+      <h2>Volunteer Registration</h2>
+      <p>Sign up below to join our amazing team of volunteers.</p>
+
+      <form class="volunteer-form">
+        <label for="fullName">Full Name*</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+
+        <label for="email">Email Address*</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+        <label for="phone">Phone Number*</label>
+        <input type="tel" id="phone" name="phone" placeholder="10-digit number" pattern="[0-9]{10}" required>
+
+        <label for="interest">Area of Interest*</label>
+        <select id="interest" name="interest" required>
+          <option value="">Select an area</option>
+          <option value="Food Distribution">Food Distribution</option>
+          <option value="Environment">Environment</option>
+          <option value="Health">Health</option>
+          <option value="Animal Welfare">Animal Welfare</option>
+        </select>
+
+        <label for="reason">Why do you want to volunteer?*</label>
+        <textarea id="reason" name="reason" placeholder="Tell us why you'd like to help" required></textarea>
+
+        <button type="submit">Submit Registration</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Local Volunteer Opportunities. All rights reserved.</p>
+    <p>Developed by Obiri Asiedu Bempa</p>
+    <p>Last Updated: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('lastModified').textContent = document.lastModified;
+  </script>
+</body>
+</html>

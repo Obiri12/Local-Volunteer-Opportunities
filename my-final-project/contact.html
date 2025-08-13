@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Local Volunteer Opportunities team.">
+  <title>Contact Us - Local Volunteer Opportunities</title>
+  
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/logo.png" alt="Volunteer Logo" class="logo">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you! Reach out with questions, suggestions, or partnership opportunities.</p>
+    </section>
+
+    <section class="contact-container">
+      <form class="volunteer-form">
+        <label for="name">Full Name*</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+        <label for="email">Email Address*</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+        <label for="message">Message*</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-details">
+        <h2>Our Contact Information</h2>
+        <p><strong>Email:</strong> support@localvolunteer.org</p>
+        <p><strong>Phone:</strong> +233257573251</p>
+        <p><strong>Address:</strong>  St Johns - Dome - Kwabenya - Brekusu Rd, Taifa</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Local Volunteer Opportunities. All rights reserved.</p>
+    <p>Developed by Obiri Asiedu Bempa</p>
+    <p>Last Updated: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('lastModified').textContent = document.lastModified;
+  </script>
+</body>
+</html>

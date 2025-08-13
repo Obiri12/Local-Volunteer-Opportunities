@@ -131,3 +131,52 @@ footer {
   font-weight: bold;
   margin-top: 1rem;
 }
+
+/* Volunteer Registration Form */
+.volunteer-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.volunteer-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.volunteer-form input,
+.volunteer-form select,
+.volunteer-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.volunteer-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.volunteer-form button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background: #2b6777;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.volunteer-form button:hover {
+  background: #1e4f5a;
+}
